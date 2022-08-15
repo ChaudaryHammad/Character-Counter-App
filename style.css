@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Libre+Baskerville&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container h2{
+    color: rgb(90, 49, 20);
+}
+html{
+    color: rgb(238, 239, 245);
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    background: url(./img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    padding: 30px;
+    margin-top: 0px;
+}
+
+h2{
+color: rgb(246, 246, 248);
+text-align: center;
+font-size: 48px;
+letter-spacing: -0.2px;
+font-family: 'Merriweather', serif;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+
+p{
+    max-width: 685px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 23px;
+}
+
+textarea{
+    color: rgb(252, 249, 249);
+    width: 100%;
+    height: 316px;
+    resize: none;
+    position: relative;
+    padding: 18px;
+    box-shadow: 0 12px 48px 0px rgba(168, 85, 7, 0.39);
+    border: 0.5px solid rgb(112, 63, 7);
+    border-radius: 16px;
+    background-color: rgba(66, 42, 42, 0.26);
+    opacity: 100%;
+
+}
+
+
+textarea:focus{
+    border: 0.3px solid rgb(43, 45, 56, 0.3);
+    outline: none;
+}
+
+p, textarea{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.6;
+
+}
+
+button{
+    background-color: rgba(168, 85, 7, 0.699);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 10px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: -60px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+button:focus,
+button:hover{
+    background-color: rgba(168, 85, 7, 0.993);
+    box-shadow: 0 5px 30px 0 rgb(0, 0, 0, 0.1);
+
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    margin-top: 20px;
+}
